@@ -63,7 +63,7 @@ function App() {
 
   const handleCheckbox = (e) => {
     let index = e.target.name;
-  
+
     let newTodos = [...todos];
     newTodos[index].isCompleted = !newTodos[index].isCompleted;
     settodos(newTodos);
@@ -104,7 +104,7 @@ function App() {
         {todos.length === 0 && (
           <img
             className="ml-[20%] mt-[2%] w-[40%] h-[65%] p-2"
-            src="public\empty_todolist.gif"
+            src="https://media1.tenor.com/m/yF8RZBIYoVcAAAAC/ooz-ooznmates.gif"
             alt=""
           />
         )}
